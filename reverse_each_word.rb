@@ -1,6 +1,8 @@
 def reverse_each_word(string)
   arr = string.split(/ /)
-  arr.each 
+  arr.each do |word|
+    p word
+  end
 end
 
 reverse_each_word("Hello there, and how are you?")
