@@ -3,8 +3,9 @@ def reverse_each_word(string)
   result = ""
   arr.each do |word|
      result += word.reverse + " ".trim
-     p result
+     result
   end
+  p result
 end
 
 reverse_each_word("Hello there, and how are you?")
