@@ -1,1 +1,3 @@
-%w(Hello there, and how are you?).each 
+%w(Hello there, and how are you?).each |word| do
+
+end
