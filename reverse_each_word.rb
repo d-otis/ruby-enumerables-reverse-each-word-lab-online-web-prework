@@ -3,6 +3,7 @@ def reverse_each_word(string)
   result = ""
   arr.each do |word|
      result += word.reverse
+     p result
   end
 end
 
