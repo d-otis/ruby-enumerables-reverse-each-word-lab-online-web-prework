@@ -5,7 +5,7 @@ def reverse_each_word(string)
      result += word.reverse + " ".trim
      result
   end
-  p result.trim
+  p result.strip
 end
 
 reverse_each_word("Hello there, and how are you?")
